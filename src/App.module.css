@@ -1,0 +1,35 @@
+.canvas {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(13, 0, 39) 0%, rgb(46, 0, 68) 100%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.actions {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    left: 0;
+    z-index: 200;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    width: 100%;
+    justify-content: center;
+    z-index: 100;
+}

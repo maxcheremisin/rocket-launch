@@ -1,0 +1,15 @@
+.button {
+    background: #59bc50;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button:active {
+    background: #499347;
+}
+
+.button + .button {
+    margin-left: 10px;
+}

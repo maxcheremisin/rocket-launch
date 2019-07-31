@@ -5,3 +5,4 @@ export * from './moon';
 export * from './range-input';
 export * from './start-button';
 export * from './add-buttons';
+export * from './corner';

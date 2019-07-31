@@ -8,8 +8,10 @@
         "@types/react": "16.8.23",
         "@types/react-dom": "16.8.5",
         "eslint-config-prettier": "6.0.0",
+        "express": "4.17.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
+        "react-github-corner": "2.3.0",
         "react-scripts": "3.0.1",
         "typescript": "3.5.3"
     },
@@ -19,6 +21,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "server": "yarn install && yarn build && node src/server.js",
         "pretty": "prettier --config .prettierrc --write src/**/*.{ts,tsx}"
     },
     "eslintConfig": {

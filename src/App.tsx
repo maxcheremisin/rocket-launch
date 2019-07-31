@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import {useCenter} from './hooks/useCenter';
 import {useGame} from './hooks/useGame';
-import {Earth, Ship, Satellite, Moon, RangeInput, StartButton, AddButtons} from './components';
+import {Earth, Ship, Satellite, Moon, RangeInput, StartButton, AddButtons, Corner} from './components';
 import s from './App.module.css';
 
 export const App = () => {
@@ -17,6 +17,7 @@ export const App = () => {
 
     return (
         <div className={s.canvas} ref={canvasRef}>
+            <Corner />
             <div className={s.center} style={style}>
                 <Earth />
                 <Moon ref={el => elements.current.add(el)} angle={moon.angle} center={center} />
